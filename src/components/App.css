@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    border: rgba(255, 255, 255, 0);
+}
+
+.app{
+    margin: 20px 0;
+    box-shadow: 2px 7px 12px 1px rgba(0,0,0,0.36);
+    -webkit-box-shadow: 2px 7px 12px 1px rgba(0,0,0,0.36);
+    -moz-box-shadow: 2px 7px 12px 1px rgba(0,0,0,0.36);
+}
+.background-cold{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(62,210,240,1) 0%, rgba(41,41,152,1) 100%);
+}
+
+.background-warm{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(173,141,62,1) 0%, rgba(160,31,5,1) 100%);
+}
+.search-input {
+    text-transform: capitalize;
+}
+
+::-webkit-input-placeholder {
+    text-transform: initial;
+ }
+ 
+ :-moz-placeholder { 
+    text-transform: initial;
+ }
+ 
+ ::-moz-placeholder {  
+    text-transform: initial;
+ }
+ 
+ :-ms-input-placeholder { 
+    text-transform: initial;
+ }
+
+ .units{
+    border: none!important;
+    outline: none!important;
+ }
+
+ .units:focus {
+    outline: none!important;
+  }
+
+  button:focus {
+    border: none;
+    outline: none;
+}
+.input-icons{
+    transition-duration: .15s;
+}
+.input-icons:hover{
+    transition: ease-out;
+    scale: 125%;
+    transition-duration: .15s;
+
+ }
